@@ -17,6 +17,13 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
+/**
+ * 
+ * @author Bryan Bielawa
+ * 
+ */
+
+
 public class PlayAnMP3 extends Application {
 
   public static void main(String[] args) {
@@ -30,7 +37,7 @@ public class PlayAnMP3 extends Application {
     BorderPane pane = new BorderPane();
     //String path = "songfiles/Capture.mp3";
     String path = "songfiles/RickAstleyNeverGonna.mp3";
-    // I changed the song like the spec said, enjoy!
+    // I, Bryan Bielawa, changed the song to a classic
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
