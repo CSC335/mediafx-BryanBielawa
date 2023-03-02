@@ -28,7 +28,9 @@ public class PlayAnMP3 extends Application {
   @Override
   public void start(Stage stage) throws Exception {
     BorderPane pane = new BorderPane();
-    String path = "songfiles/Capture.mp3";
+    //String path = "songfiles/Capture.mp3";
+    String path = "songfiles/RickAstleyNeverGonna.mp3";
+    // I changed the song like the spec said, enjoy!
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
